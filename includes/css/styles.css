@@ -1,0 +1,131 @@
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#featureHeading h2{
+   color:#0b3e71;
+   font-family: 'crimson',serif;
+}
+ #features{
+   text-align: center;
+   color: #0b3e71;
+   font-family: 'crimson',serif;
+ }
+#features img{
+   margin:20px 20px 20px;
+}
+
+
+footer {
+   background:linear-gradient(180deg,#0b3e71,#0d64b0);
+   color:white;
+   font-size: 18px;
+   padding: 20px;
+   text-decoration: none;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+   font-family: 'crimson',serif;
+}
+
+#moreCources{
+   font-size:22px;
+   color:#0b3e71;
+
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+.navbar{
+   background:linear-gradient(180deg,#0b3e71,#0d64b0);
+   font-size: 20px;
+   padding: 20px;
+   text-decoration-color: white;
+}
+   .navbar-brand {
+     color: white;
+   padding:0px 20px;
+}
+
+.jumbotron{
+    background: url('../../images/out.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height:540px;
+
+    margin-top: 90px;
+    text-align: left;
+}
+.link{
+   color: white;
+}
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel {
+   margin-top: 60px;
+}
+
+.carousel-caption {
+   font-size: 24px;
+}
+
+.carousel-caption {
+   font-size: 32px;
+}
+
+
+#myCarousel .item{
+   height:400px;
+}
+
+
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#myCarousel .item{height: 310}
+
+   .carousel-caption {
+      font-size: 16px;
+   }
+   
+   .carousel-caption  {
+      font-size: 22px;
+   }
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+#myCarousel .item{height: 500px}
+
+
+	
+}
