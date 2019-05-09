@@ -13,7 +13,7 @@
 		<meta name="theme-color" content="#eeeeee">
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta name="keywords" content="learn, spanish, german, french, portuguese, italian, english, free, lessons, course, language, study, flashcards">
-		<meta name="description" content="Speak Yourself is the world's most popular way to learn a language. It's 100% free, fun and science-based. Practice online on duolingo.com or on the apps!">
+		
 		<!-- Bootstrap CSS -->
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
@@ -72,7 +72,44 @@
 							</li>
 						</ul>
 							
-							<button type="button" class="btn btn-light">Log-in</button>
+							
+							<a href="#myModal" role="button" class="btn btn-success" data-toggle="modal">Login</a>
+								
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												
+												<h4 class="modal-title"> Login </h4>
+											</div><!-- end modal-header -->
+											<div class="modal-body">
+												
+												<form class="form-horizontal">
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputPassword">Password</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputPassword" placeholder="Password" type="Password">
+														</div>
+													</div>
+												</form>
+											</div><!-- end modal-body -->
+											
+											<div class="modal-footer">
+												<button class="btn btn-default" data-dismiss="modal" type="button">cancel</button>
+												<button class="btn btn-primary" type="submit">login</button>
+											</div><!-- end modal-footer -->
+										</div><!-- end modal-content -->
+									</div><!-- end modal-dialog -->
+								</div><!-- end myModal -->
 							
 						
 					</div>
@@ -90,15 +127,15 @@
 				</ol>
 
 				<div class="carousel-inner">
-					<div class="item">
-						<img src="../../images/confi.jpg">
+					<div class="item active">
+						<img src="../images/confi.jpg" alt="World">
 						<div class="carousel-caption">
 							<h4>World that you can explore</h4>
 						</div>
 					</div>
 					
 					<div class="item">
-						<img src="../../images/confi.jpg">
+						<img src="../images/confi.jpg" alt="confi">
 						<div class="carousel-caption">
 							<h4>Believe that you can</h4>
 						</div>
@@ -134,8 +171,8 @@
 
 			<div class="row" id="featureHeading">
 			
-				<div class="col_12" align="center">
-					<h2>read, listen and learn to speak with us</h2>
+				<div class="col_12">
+					<h2 class="heading">read, listen and learn to speak with us</h2>
 
 				</div>
 
@@ -202,55 +239,8 @@
 				</div>
 		
 			</div><!--end moreCources-->
-
-		</div><!--end of container-->
-		<!--
-						<header class="clearfix">
-					
-						<h2>Speak Yourself</h2>
-						
-						<nav>
-							<ul>
-								<li>
-									<a href="#">home</a>
-									</li>
-									<li>
-									<a href="#">sign-in</a>
-									</li>
-									<li>
-									<a href="#">register</a>
-									</li>
-									<li>
-									<a href="#">site language</a>
-								</li>
-							</ul>
-						</nav>
-					
-				</header>
 			
-			<div class="container_12">
-				<section class="grid_4">
-				<h2>Believe</h2>
-				<img src="img/bliv.jpg" alt="Believe" height="300px" width="300px">
-				<blockquote>Learning another language is not only learning different words for the same things, but learning another way to think about things.</blockquote>
-				</section>
-
-				<section class="grid_4">
-				<h2>Try</h2>
-				<img src="img/try.png" alt="Try"  height="300px" width="300px">
-				<blockquote>You live a new life for every language you speak, If you know only one language, you live only once.</blockquote>
-				</section>
-
-				<section class="grid_4">
-				<h2>Speak</h2>
-				<img src="img/spk1.jpg" alt="Speak" height="300px" width="300px">
-				<blockquote>If you talk to a man in a language he understands, that goes to his head. If you talk to him in his language, that goes to his heart. You can have so much fun by choosing language of your own choice.</blockquote>
-
-				</section>	
-			</div>
-		<hr>-->
-		
-		
+		<!--end of container-->
 		
 		<footer>
 			<div class="container">

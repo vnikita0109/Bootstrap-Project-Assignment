@@ -3,10 +3,7 @@
 /* --------------------------------------
    Layout
    -------------------------------------- */
-#featureHeading h2{
-   color:#0b3e71;
-   font-family: 'crimson',serif;
-}
+
  #features{
    text-align: center;
    color: #0b3e71;
@@ -15,7 +12,11 @@
 #features img{
    margin:20px 20px 20px;
 }
-
+.heading{
+   color:#0b3e71;
+   font-family: 'crimson',serif;
+   text-align: center;
+}
 
 footer {
    background:linear-gradient(180deg,#0b3e71,#0d64b0);
@@ -62,7 +63,7 @@ body {
     color: white;
     height:540px;
 
-    margin-top: 90px;
+    margin-top: 70px;
     text-align: left;
 }
 .link{
@@ -89,7 +90,7 @@ body {
 }
 
 
-}
+
 
 
 /* --------------------------------------
@@ -109,7 +110,7 @@ body {
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-	#myCarousel .item{height: 310}
+	#myCarousel .item{height: 310px}
 
    .carousel-caption {
       font-size: 16px;
