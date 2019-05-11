@@ -36,11 +36,14 @@ body {
    font-family: 'crimson',serif;
 }
 
-#moreCources{
-   font-size:22px;
-   color:#0b3e71;
 
+#tabs{
+   font-size:20px;
+   color:#0b3e71;
+   padding: 10px;
+   text-decoration: none;
 }
+
 
 /* --------------------------------------
    Navbar
@@ -58,10 +61,10 @@ body {
 }
 
 .jumbotron{
-    background: url('../../images/out.jpg') center center no-repeat;
+    background: url('../../images/out.jpg') center no-repeat;
     background-size: cover;
     color: white;
-    height:540px;
+    height: 540px;
     text-align: left;
     margin-top: 70px;
 }

@@ -39,13 +39,6 @@
 				<div class="nav-collapse collapse navbar-responsive-collapse">
 					<div class="nav  pull-right">
 
-						<!--<form class="navbar-form pull-right">
-						
-							<input type="text" name="searchbar" class="form-control" placeholder="search here..." id="searchInput">
-							<button type="submit" class="btn btn-default">
-								<span class="glyphicon glyphicon-search"></span>
-							</button>
-							</form>-->
 
 						<ul class="nav navbar-nav">
 							
@@ -73,13 +66,15 @@
 						</ul>
 							
 							
-							<a href="#myModal" role="button" class="btn btn-success" data-toggle="modal">Login</a>
+							<!--
+							<a href="#myModal" role="button" class="btn btn-success" data-toggle="modal">Login</a> -->
+							<button type="=button" class="=btn btn-success" data-toggle="modal" data-target="#myModal">Login</button>
 								
 								<div class="modal fade" id="myModal">
 									<div class="modal-dialog">
 										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<div class="modal-header"><!--model header-->
+												<button class="close" data-dismiss="modal">&times;</button>
 												
 												<h4 class="modal-title"> Login </h4>
 											</div><!-- end modal-header -->
@@ -111,7 +106,6 @@
 									</div><!-- end modal-dialog -->
 								</div><!-- end myModal -->
 							
-						
 					</div>
 				</div><!--end nav-collapse-->
 			</div>
@@ -128,7 +122,7 @@
 				<a data-test="have-account" class="link" href="/log-in">Already have an account</a>
 				</p>
 
-			</div>			
+			</div><!--end jumbotron-->
 
 
 
@@ -164,14 +158,14 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			
 				
 
 				<a href="#myCarousal" data-slide="prev" class="left carousel-control"><span class="icon-prev"></span></a>
 
 				<a href="#myCarousal" data-slide="next" class="right carousel-control"><span class="icon-next"></span></a>
 			
-			
+			</div>
 
 			</div>
 			<!--end carousel-->
@@ -206,7 +200,7 @@
 						<p>We motivates you to stay on track by recording how many days in a row you spend learning a language.</p>
 					</div>
 				</div>
-Already have an account
+
 				<div class="col-sm-4 feature">
 					<div class="panel">
 						<div class="panel-heading">
@@ -218,31 +212,66 @@ Already have an account
 				</div>
 
 			</div><!--end features-->
-			
-			<div class="row" id="moreCources">
-				<div class="col-12">	
-				
-					
-						
-						<div class="col-6">
-						<img src="img/bts.gif" alt="communication" />
 
-						</div>
+			<div class="row" id="tabs">
+				<div class="col-12">
+					<div class="col-6" >
 
+						<div class="tabbable">
 					
+								<ul class="nav nav-tabs">
+										<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+										<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+								</ul>
+							<div class="tab-content">
+								<div class="tab-pane active" id="tab1">
+										<h4>Read,Learn and educate</h4>
+										<img src="images/begin.jpg" width="450" height="250" class="thumbnail pull-left" alt="education">
+										<p>Learning is an emotional roller coaster mixed with amazing highs, frustrating plateaus, and the feeling like you’re not making any progress at all. It’s so easy to become discouraged and want to throw in the towel which is why I’ve collated a list of inspiring language quotes from history’s great linguistics and authors as well as beautiful proverbs that will give you a much-needed boost of morale.</p>
+								</div><!-- end first tab-pane -->
+					
+					
+								<div class="tab-pane" id="tab2">
+									<h4>Be expert</h4>
+									
+									<img src="img/bts.gif" class="thumbnail pull-left" alt="Placeholder image">
+									
+										<p>motivating your students</p>
+										<p>experience learning anywhere</p>
+										<p>communicating concepts and knowledge to them</p>
+										<br>
+										<p>maximizing the joy, and minimizing the pain, of the classroom experience.</p>
+										<p>Believe, Trust and Speak</p>
+									
+														
+								</div><!-- end second tab-pane -->
+							</div><!-- end tab-content -->
+						</div><!-- end tabbable -->
+					</div>
+
+
+		
 					
 					<div class="col-6">
-						<strong>read, listen & speak</strong>
+						<ul>
+						<li><strong>read, listen & speak</strong>
 						<p>Each lesson includes a variety of speaking, listening, translation, and multiple choice challenges</p>
-
-						<strong>grading through practice</strong>
+						</li>
+						
+						<li><strong>grading through practice</strong>
 						<p>Instantly see which answers you get correct. When you miss a challenge, we'll quickly show you how to improve.</p>
-					
+						</li>
+
+						<li>
 						<strong>like more, explore more</strong>
 						<p>Boost your brain cells getting more favorite quotes and like them, we will show you more.</p>
-					
+						</li>
+
+						<li>
 						<strong>golden points</strong>
 						<p>SY motivates you to stay on track by recording how many days in a row you spend learning a language</p>
+						</li>
+					</ul>
 					</div>
 				</div>
 		
@@ -263,9 +292,9 @@ Already have an account
 					<div class="col-sm-3">
 						<h6>follow us</h6>
 						<ul>
-							<li><a href="">twitter</a></li>
-							<li><a href="">facebook</a></li>
-							<li><a href="">instagram</a></li>
+							<li><a href=""><i class="fa fa-twitter"></i>twitter</a></li>
+							<li><a href=""><i class="fa fa-facebook-official"></i>facebook</a></li>
+							<li><a href=""><i class="fa fa-instagram"></i>instagram</a></li>
 							
 						</ul>
 					</div>
